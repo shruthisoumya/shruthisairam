@@ -1,16 +1,25 @@
-# React + Vite
+# Hi, I'm Shruthi Sairam 👋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Full-Stack Developer | QA Automation Engineer | AI Security Projects
 
-Currently, two official plugins are available:
+I have 6+ years of experience in QA Automation and Full-Stack Development.  
+I build React apps, Node.js APIs, MongoDB backends, authentication systems, and AI-driven security tools.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Skills
+React • Node.js • Express • MongoDB • JavaScript • Selenium • Java • API Testing • Keycloak • Wazuh • AI Triage
 
-## React Compiler
+## Projects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Belzir-SIEM
+AI-driven SOC/SIEM platform with Wazuh alerts, Claude AI triage, incidents, patterns, and analyst workflow.
 
-## Expanding the ESLint configuration
+### IAM / Authentication Platform
+React + Node.js + Keycloak project with MFA, role-based access, JWT authentication, and user management.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Sohnemann Bar App
+Mobile/web app concept for bar operations, booking, customer flow, and backend API integration.
+
+## Contact
+- GitHub: https://github.com/shruthisoumya
+- LinkedIn: https://www.linkedin.com/in/shruthi-sairam12/
+- Email: shruthisairam12@gmail.com

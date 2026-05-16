@@ -57,9 +57,9 @@ export default function App() {
           <div style={styles.card}>
             <h3 style={styles.cardTitle}>Belzir-SIEM</h3>
             <p style={styles.cardText}>
-              AI-driven SOC/SIEM platform using React, Node.js, MongoDB, Wazuh,
-              AI triage, incident management, analyst workflow, and alert
-              pattern learning.
+              AI-driven SOC/SIEM platform using React, Node.js, MongoDB,
+              Wazuh, AI triage, incident management, analyst workflow,
+              and alert pattern learning.
             </p>
             <span style={styles.tag}>React</span>
             <span style={styles.tag}>Node.js</span>
@@ -70,9 +70,9 @@ export default function App() {
           <div style={styles.card}>
             <h3 style={styles.cardTitle}>IAM Authentication Platform</h3>
             <p style={styles.cardText}>
-              User management and authentication system with Keycloak, MFA,
-              JWT verification, role-based access control, and secure API
-              integration.
+              User management and authentication system with Keycloak,
+              MFA, JWT verification, role-based access control and
+              secure API integration.
             </p>
             <span style={styles.tag}>Keycloak</span>
             <span style={styles.tag}>MFA</span>
@@ -84,8 +84,8 @@ export default function App() {
             <h3 style={styles.cardTitle}>Sohnemann Bar App</h3>
             <p style={styles.cardText}>
               App concept for bar operations with modern UI design,
-              authentication flow, backend API integration, and customer-focused
-              features.
+              authentication flow, backend API integration and
+              customer-focused features.
             </p>
             <span style={styles.tag}>React</span>
             <span style={styles.tag}>UI Design</span>
@@ -119,6 +119,60 @@ export default function App() {
         </div>
       </section>
 
+      <section style={styles.section}>
+        <h2 style={styles.sectionTitle}>Why Hire Me?</h2>
+
+        <div style={styles.grid}>
+          <div style={styles.card}>
+            <h3 style={styles.cardTitle}>6+ Years Experience</h3>
+            <p style={styles.cardText}>
+              Strong experience in QA automation, software testing,
+              frontend development and real-world IT projects.
+            </p>
+          </div>
+
+          <div style={styles.card}>
+            <h3 style={styles.cardTitle}>Full-Stack Development</h3>
+            <p style={styles.cardText}>
+              Build complete applications using React, Node.js,
+              Express, MongoDB and API integrations.
+            </p>
+          </div>
+
+          <div style={styles.card}>
+            <h3 style={styles.cardTitle}>AI & Security Projects</h3>
+            <p style={styles.cardText}>
+              Hands-on experience building AI-powered systems,
+              SIEM workflows and automation platforms.
+            </p>
+          </div>
+
+          <div style={styles.card}>
+            <h3 style={styles.cardTitle}>Quality First</h3>
+            <p style={styles.cardText}>
+              Testing background helps deliver stable,
+              scalable and production-ready solutions.
+            </p>
+          </div>
+
+          <div style={styles.card}>
+            <h3 style={styles.cardTitle}>Fast Learner</h3>
+            <p style={styles.cardText}>
+              Quickly adapt to new technologies and solve
+              complex technical challenges.
+            </p>
+          </div>
+
+          <div style={styles.card}>
+            <h3 style={styles.cardTitle}>Clear Communication</h3>
+            <p style={styles.cardText}>
+              Transparent communication and regular project
+              updates throughout development.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <footer style={styles.footer}>
         <p>Berlin, Germany</p>
         <p>© 2026 Shruthi Sairam. All rights reserved.</p>
@@ -129,163 +183,139 @@ export default function App() {
 
 const styles = {
   page: {
-    minHeight: "100vh",
-    background:
-      "linear-gradient(135deg, #020617 0%, #0f172a 45%, #111827 100%)",
-    color: "#f8fafc",
-    fontFamily:
-      "-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif",
-    padding: "40px 20px",
+    minHeight:"100vh",
+    background:"linear-gradient(135deg,#020617 0%,#0f172a 45%,#111827 100%)",
+    color:"#f8fafc",
+    fontFamily:"-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif",
+    padding:"40px 20px",
   },
 
-  hero: {
-    maxWidth: "1100px",
-    margin: "0 auto",
-    padding: "70px 20px 50px",
-    textAlign: "center",
+  hero:{
+    maxWidth:"1100px",
+    margin:"0 auto",
+    padding:"70px 20px 50px",
+    textAlign:"center",
   },
 
-  badge: {
-    display: "inline-block",
-    padding: "10px 18px",
-    borderRadius: "999px",
-    background: "rgba(56, 189, 248, 0.12)",
-    color: "#67e8f9",
-    border: "1px solid rgba(103, 232, 249, 0.35)",
-    fontSize: "14px",
-    fontWeight: "600",
-    marginBottom: "24px",
+  badge:{
+    display:"inline-block",
+    padding:"10px 18px",
+    borderRadius:"999px",
+    background:"rgba(56,189,248,.12)",
+    color:"#67e8f9",
+    border:"1px solid rgba(103,232,249,.35)",
+    marginBottom:"24px",
+    fontWeight:"600",
   },
 
-  name: {
-    fontSize: "64px",
-    lineHeight: "1.1",
-    margin: "0 0 18px",
-    color: "#ffffff",
-    fontWeight: "800",
-    letterSpacing: "-1px",
+  name:{
+    fontSize:"64px",
+    color:"#fff",
+    fontWeight:"800",
   },
 
-  role: {
-    fontSize: "26px",
-    color: "#38bdf8",
-    fontWeight: "600",
-    margin: "0 0 24px",
+  role:{
+    fontSize:"26px",
+    color:"#38bdf8",
   },
 
-  summary: {
-    maxWidth: "800px",
-    margin: "0 auto",
-    color: "#cbd5e1",
-    fontSize: "20px",
-    lineHeight: "1.7",
+  summary:{
+    maxWidth:"800px",
+    margin:"0 auto",
+    color:"#cbd5e1",
+    fontSize:"20px",
+    lineHeight:"1.7",
   },
 
-  buttons: {
-    marginTop: "34px",
-    display: "flex",
-    justifyContent: "center",
-    gap: "14px",
-    flexWrap: "wrap",
+  buttons:{
+    marginTop:"34px",
+    display:"flex",
+    justifyContent:"center",
+    gap:"14px",
+    flexWrap:"wrap",
   },
 
-  primaryBtn: {
-    background: "#38bdf8",
-    color: "#020617",
-    padding: "14px 24px",
-    borderRadius: "12px",
-    textDecoration: "none",
-    fontWeight: "700",
-    boxShadow: "0 12px 35px rgba(56, 189, 248, 0.35)",
+  primaryBtn:{
+    background:"#38bdf8",
+    color:"#020617",
+    padding:"14px 24px",
+    borderRadius:"12px",
+    textDecoration:"none",
+    fontWeight:"700",
   },
 
-  secondaryBtn: {
-    background: "rgba(255,255,255,0.08)",
-    color: "#ffffff",
-    padding: "14px 24px",
-    borderRadius: "12px",
-    textDecoration: "none",
-    fontWeight: "700",
-    border: "1px solid rgba(255,255,255,0.14)",
+  secondaryBtn:{
+    background:"rgba(255,255,255,.08)",
+    color:"#fff",
+    padding:"14px 24px",
+    borderRadius:"12px",
+    textDecoration:"none",
   },
 
-  section: {
-    maxWidth: "1100px",
-    margin: "0 auto 44px",
-    padding: "32px",
-    borderRadius: "24px",
-    background: "rgba(15, 23, 42, 0.78)",
-    border: "1px solid rgba(148, 163, 184, 0.18)",
-    boxShadow: "0 24px 70px rgba(0,0,0,0.25)",
+  section:{
+    maxWidth:"1100px",
+    margin:"0 auto 44px",
+    padding:"32px",
+    borderRadius:"24px",
+    background:"rgba(15,23,42,.78)",
   },
 
-  sectionTitle: {
-    fontSize: "30px",
-    margin: "0 0 18px",
-    color: "#ffffff",
+  sectionTitle:{
+    fontSize:"30px",
+    color:"#fff",
   },
 
-  text: {
-    color: "#cbd5e1",
-    fontSize: "18px",
-    lineHeight: "1.7",
+  text:{
+    color:"#cbd5e1",
+    lineHeight:"1.7",
   },
 
-  grid: {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-    gap: "22px",
+  grid:{
+    display:"grid",
+    gridTemplateColumns:"repeat(auto-fit,minmax(260px,1fr))",
+    gap:"22px",
   },
 
-  card: {
-    background: "rgba(2, 6, 23, 0.75)",
-    borderRadius: "20px",
-    padding: "24px",
-    border: "1px solid rgba(148, 163, 184, 0.18)",
+  card:{
+    background:"rgba(2,6,23,.75)",
+    borderRadius:"20px",
+    padding:"24px",
   },
 
-  cardTitle: {
-    color: "#ffffff",
-    fontSize: "22px",
-    marginTop: "0",
+  cardTitle:{
+    color:"#fff",
   },
 
-  cardText: {
-    color: "#cbd5e1",
-    fontSize: "16px",
-    lineHeight: "1.6",
+  cardText:{
+    color:"#cbd5e1",
+    lineHeight:"1.6",
   },
 
-  tag: {
-    display: "inline-block",
-    margin: "8px 8px 0 0",
-    padding: "8px 11px",
-    borderRadius: "999px",
-    background: "rgba(56, 189, 248, 0.12)",
-    color: "#67e8f9",
-    fontSize: "13px",
-    fontWeight: "600",
+  tag:{
+    display:"inline-block",
+    margin:"8px",
+    padding:"8px 11px",
+    borderRadius:"999px",
+    background:"rgba(56,189,248,.12)",
+    color:"#67e8f9",
   },
 
-  skills: {
-    display: "flex",
-    flexWrap: "wrap",
-    gap: "12px",
+  skills:{
+    display:"flex",
+    flexWrap:"wrap",
+    gap:"12px",
   },
 
-  skill: {
-    padding: "12px 16px",
-    borderRadius: "12px",
-    background: "rgba(255,255,255,0.08)",
-    color: "#ffffff",
-    border: "1px solid rgba(255,255,255,0.12)",
-    fontWeight: "600",
+  skill:{
+    padding:"12px 16px",
+    borderRadius:"12px",
+    background:"rgba(255,255,255,.08)",
+    color:"#fff",
   },
 
-  footer: {
-    textAlign: "center",
-    color: "#94a3b8",
-    padding: "30px 10px",
-    fontSize: "15px",
-  },
+  footer:{
+    textAlign:"center",
+    color:"#94a3b8",
+    padding:"30px",
+  }
 };
